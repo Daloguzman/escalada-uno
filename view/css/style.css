@@ -1,0 +1,296 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow-y:hidden;
+	
+
+}
+
+nav{
+
+	height: 50px;
+	width: 100%;
+	background: #4C4C6D;
+	box-sizing: border-box;
+
+
+}
+nav a{
+	color: #fff;
+	font-size: 17px;
+	margin-right: 20px;
+	float: right;
+	position: relative;
+	bottom: 15px;
+	text-decoration: none;
+}
+h1{
+	color: #fff;
+	font-size:25px; 
+	margin:0;
+	top: 10px;
+	position: relative;
+	font-weight: bold;
+	letter-spacing: 4px;
+	margin-left: 10px
+}
+
+
+.form-lateral{
+	height: 100vh;
+	background: #E8F6EF;
+	width:25%;
+	display: inline-block;
+}
+.tabla-elemet{
+	width: 73%;
+	height: 100vh;
+	background: #E8F6EF;
+	display: inline-block;
+	float: right;
+}
+
+.form-lateral form{
+ padding-left: 15px;
+
+}
+.form-lateral form h2{
+  	text-align: center;
+	color:rgba(0,0,0,0.7);
+}
+.form-lateral form  div{
+	padding: 7px 3px
+}
+.form-lateral form  div label{
+
+	 margin-right:  10px;
+	 font-size: 16px;
+
+}
+.form-lateral form  div input{
+height: 22px;
+width: 150px;
+
+}
+.btn-registro{
+	background: #B8DFD8;
+	font-size: 14px;
+	font-weight: bold;
+	display: block;
+	margin: auto;
+	border: none;
+	padding: 10px 30px;	
+	border-radius: 5px;
+	color:rgba(0,0,0,0.7);
+	margin-top: 20px;
+	width: 80%;
+
+}
+.btn-modificar{
+	background: #B8DFD8;
+	font-size: 14px;
+	font-weight: bold;
+	display: block;
+	margin: auto;
+	border: none;
+	padding: 10px 30px;	
+	border-radius: 5px;
+	color:#FFF;
+	margin-top: 20px;
+	width: 80%;
+}
+.form-modi h2{
+	color:#fff;
+	position: relative;
+	bottom: 40px; 
+}
+.form-modi div{
+	padding:10px 0px;
+}
+.form-modi div  label{
+	color:#fff;
+}
+.alert-corre{
+	background: #4C4C6D;
+	padding: 10px 10px;
+	color: #fff;
+	position: relative;
+	top: 15px;
+	border-radius: 10px;
+	display: block;
+	margin: auto;
+	text-align: center;
+	width: 70%;
+}
+}
+.alert-error{
+	background: #CD113B;
+	padding: 10px 10px;
+	color: #fff;
+	position: relative;
+	top: 15px;
+	border-radius: 10px;
+}
+.dos-alert{
+	display: block;
+	margin: auto;
+	text-align: center;
+	width: 70%;
+}
+.inp3{
+	position: relative;
+	left: 13px
+}
+.eval-el{
+	background: #B8DFD8;
+	width: 100;
+	height: 80px;
+	padding-left: 10px;
+    color:rgba(0,0,0,0.7);
+
+}
+.cont-table{
+	position: fixed;
+	background: #fff;
+	width: 72%;
+	height: 380px;
+	margin: auto;
+	text-align: center;
+	padding: 10px;
+	overflow-y:scroll;
+    overflow-x:hidden;
+    display: block;
+}
+.enu-tab{
+
+	display: inline-block;
+	position: relative;
+	left: 135px;
+}
+
+.bo-ta{
+	position: relative;
+	top: 10px;
+	width:700px;
+}
+ table{
+	 margin: auto;
+}
+
+i{
+	height: 35px;
+	width: 40px;
+	background: #4C4C6D;
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: 7px;
+	box-sizing: border-box;
+} 
+.icon-uno{
+	background: #CD113B;
+}
+
+.elimi-ele{
+ background: #fff;
+ border: none;
+ padding: 0;
+ display: inline-block;
+}
+.form-eli{
+ display: inline-block;
+ padding: 0;
+ margin: 0
+}
+.cont-tabl_dos{
+
+	position: relative;
+	top: 415px;
+}
+
+.cont-form{
+	background: #B8DFD8;
+	width: 40%;
+	margin: auto;
+	text-align: center;
+	padding: 20px;
+	margin-top: 50px;
+
+}
+.cont-form div {
+  margin-top: 15px;
+ 
+}
+.con-ele{
+ background: #4C4C6D;
+ border: none;
+ padding: 10px 5px;
+ color:#fff;
+ border-radius: 5px;
+ margin-left: 10px;
+}
+.con-ele a{
+	text-decoration: none;
+	 color:#fff;
+	 margin: 10px 0px;
+	 
+}
+
+.cont-limit{
+	position: relative;display: inline-block;
+	background: #FFE194;
+	padding: 15px 20px;
+}
+.cont-limit-ca{
+	position: relative;display: inline-block;
+	background: #E8F6EF;
+	padding: 15px 20px;
+}
+
+/* VENTANA MODAL */
+
+.modal-contenido{
+  background-color:#4C4C6D;
+  width:350px;
+  padding: 40px 20px;
+  margin: 20% auto;
+  position: relative;
+  bottom: 150px;
+  text-align: center;
+  border-radius: 10px;	
+  color#fff;
+}
+.modal-contenido a{
+	text-decoration: none;
+	position: relative;
+	margin: 0;
+	right:  160px;
+	bottom: 30px;
+}
+.modal{
+  background-color: rgba(0,0,0,.8);
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  opacity:0;
+  pointer-events:none;
+  transition: all 1s;
+}
+#miModal:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+.cerrar-modal{
+	background: #FFF;
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	padding: 0;
+    color: #CD113B;
+	font-size: 35px;
+	font-weight: bold;
+	
+}
